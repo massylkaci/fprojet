@@ -2,24 +2,25 @@
 
 if [ -n "$1" ] 
 then 
-	mkdir $1
-	cd $1
-	touch main
+	mkdir $1 #creation d'un repertoire
+	cd $1 #entree dans le repertoire
+	touch main 
 	touch Licence
-	touch Makefile
+	touch Makefile #creation des trois fichiers vides dans le repertoire
 	exit 0
 	
 else 
 	2>&1
 	echo " parammetre manquant "
 	
-echo "      -Name:.initdev/  le but de cette application est d'implémenter un outil d’initialisation de projets.
+echo "   HELP InitDev # le help de l'application
+            -Name:.initdev/  Un programme permettant l'implementation d'un outil d’initialisation de projets.
     
-            -Syntax:-syntax1 :/initdev <nom-project/type-de-langage > #indiquer le nom et le langage
+            -Syntax:-syntax1 :/initdev <nom-project/type-de-langage > #Le nom et le langage utilisé
             
-                    -syntax2 :/initdev <nom-project/type-de-licence> #indiquer le nom et le type de la licence
+                    -syntax2 :/initdev <nom-project/type-de-licence> #Le nom et le type de la licence
                     
-                    -syntax3 :/initdev <nom-project/type-de-langage/git > #indiquer et le nom et le langage en initialisant un depot  
+                    -syntax3 :/initdev <nom-project/type-de-langage/git > #Indiquer le depot où seront initialisés le nom et le langage  
 
                     -syntax4:/initdev <nom-project/type-de-langage/type-de-licence/git > 
                     
