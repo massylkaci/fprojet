@@ -1,0 +1,11 @@
+Le projet initdev nous sert à implémenter un outil d'initialisation de projets.
+La création du projet se fait en tapant dans le terminal le nom du projet, poussant le programme à effectuer plusieurs opérations,
+parmis ces opérations, on distingue la création d'un répertoire portant le nom du projet, contenant trois fichiers vides : main, license, 
+et Makefiles.
+Le help de l'application " initdev-help" doit comporter plusieurs sessions: Name, Syntax, Arguments, Author.
+Le type de projet permet de préciser si celui-ci est créé afin que l'utilisateur jouisse d'une application en langage C par exemple,
+ou C++, ou autres.
+Le type de licence est précisé dans Arguments : GPL/MIT.
+L'initialisation d'un dépot git permet l'initialisation de notre projet dans github (http://github.com)
+S'en suit l'installation de initDev qui dépend de l'implémentation de notre programme dans un programme linux via le terminal, auquel
+on copiera nos sources.
