@@ -23,15 +23,15 @@ echo "      -Name:.initdev/  le but de cette application est d'implémenter un o
 
                     -syntax4:/initdev <nom-project/type-de-langage/type-de-licence/git > 
                     
-         Arguments: -c: Programme en langage C
+              Args: -c: Pour le langage C
         
-                    -cpp: Programme en langage C++
+                    -cpp: Pour le langage C++
                    
-                    -py:: Programme en langage python
+                    -py:: Pour le langage python
                     
-                    -latex:: Redaction en Latex
+                    -latex:: Pour le Latex
                     
-                    -BEAMER: Presentation en BEAMER
+                    -BEAMER: Pour le BEAMER
                     
                     -GPL:GENERAL PUBLIC LICENCE
                     
